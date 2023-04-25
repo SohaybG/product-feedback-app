@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+    margin: 0;
+    font-family: $font-family;
+}
+.container {
+    width: calc(100% - #{$container-gutter * 2});
+    max-width: $container-width;
+    margin-inline: auto;
+}
